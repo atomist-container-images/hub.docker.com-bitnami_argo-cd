@@ -104,6 +104,3 @@ FROM bitnami/argo-cd:2.2.5-debian-10-r21
 
 # Tags: 2.2.5-debian-10-r20
 FROM bitnami/argo-cd:2.2.5-debian-10-r20
-
-# Tags: 2.2.5-debian-10-r19
-FROM bitnami/argo-cd:2.2.5-debian-10-r19
