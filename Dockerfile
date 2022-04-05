@@ -1,12 +1,27 @@
-# Tags: latest, 2.3.3-debian-10-r1, 2.3.3, 2-debian-10, 2
+# Tags: latest, 2.3.3-debian-10-r6, 2.3.3, 2-debian-10, 2
 FROM bitnami/argo-cd:latest
-FROM bitnami/argo-cd:2.3.3-debian-10-r1
+FROM bitnami/argo-cd:2.3.3-debian-10-r6
 FROM bitnami/argo-cd:2.3.3
 FROM bitnami/argo-cd:2-debian-10
 FROM bitnami/argo-cd:2
 
 # Tags: _
 FROM bitnami/argo-cd:_
+
+# Tags: 2.3.3-debian-10-r5
+FROM bitnami/argo-cd:2.3.3-debian-10-r5
+
+# Tags: 2.3.3-debian-10-r4
+FROM bitnami/argo-cd:2.3.3-debian-10-r4
+
+# Tags: 2.3.3-debian-10-r3
+FROM bitnami/argo-cd:2.3.3-debian-10-r3
+
+# Tags: 2.3.3-debian-10-r2
+FROM bitnami/argo-cd:2.3.3-debian-10-r2
+
+# Tags: 2.3.3-debian-10-r1
+FROM bitnami/argo-cd:2.3.3-debian-10-r1
 
 # Tags: 2.3.3-debian-10-r0
 FROM bitnami/argo-cd:2.3.3-debian-10-r0
@@ -92,15 +107,3 @@ FROM bitnami/argo-cd:2.2.5
 
 # Tags: 2.2.5-debian-10-r24
 FROM bitnami/argo-cd:2.2.5-debian-10-r24
-
-# Tags: 2.2.5-debian-10-r23
-FROM bitnami/argo-cd:2.2.5-debian-10-r23
-
-# Tags: 2.2.5-debian-10-r22
-FROM bitnami/argo-cd:2.2.5-debian-10-r22
-
-# Tags: 2.2.5-debian-10-r21
-FROM bitnami/argo-cd:2.2.5-debian-10-r21
-
-# Tags: 2.2.5-debian-10-r20
-FROM bitnami/argo-cd:2.2.5-debian-10-r20
